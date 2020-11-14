@@ -99,6 +99,9 @@
   #define section(name) __attribute__((section("." #name "#")))
 #endif
 
+#if defined(LIBCO_MP)
+#endif
+
 
 /* if defined(LIBCO_C) */
 #endif
